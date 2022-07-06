@@ -1,0 +1,23 @@
+{
+    "development": {
+        "username": "rhdpfls12",
+        "password": "rhdpfls12",
+        "database": "blockInfo",
+        "host": "127.0.0.1",
+        "dialect": "mysql"
+    },
+    "test": {
+        "username": "root",
+        "password": null,
+        "database": "blockInfo",
+        "host": "127.0.0.1",
+        "dialect": "mysql"
+    },
+    "production": {
+        "username": "root",
+        "password": null,
+        "database": "blockInfo",
+        "host": "127.0.0.1",
+        "dialect": "mysql"
+    }
+}
