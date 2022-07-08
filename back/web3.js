@@ -27,12 +27,12 @@ const block = async () => {
 
 const saveBlockInfo = async (a) => {
     const getBlockInfo = await block()
-    // console.log(getBlockInfo)
+    // console.log('12', getBlockInfo)
 
     for (let i of getBlockInfo) {
         const arrout = i
 
-        console.log(arrout)
+        // console.log(arrout)
         // console.log(arrout.number)
         db.Block.findOrCreate({
             where: {

@@ -13,7 +13,7 @@ const ethTx = require('ethereumjs-tx').Transaction
 //왜 node안에 geth는 안생겻을가 -->위에 명령어를 쳐주니 생겻다
 
 -   게쓰실행
-    geth --datadir ./geth/node --http --http.addr "0.0.0.0" --http.port 9000 --http.corsdomain "\*" --http.api "admin,miner,net,txpool,web3,personal,eth" --syncmode full --networkid 7722 --port 30300 --allow-insecure-unlock
+    geth --datadir ./node --http --http.addr "0.0.0.0" --http.port 9000 --http.corsdomain "\*" --http.api "admin,miner,net,txpool,web3,personal,eth" --syncmode full --networkid 7722 --port 30300 --allow-insecure-unlock
     --->이걸로 geth설정
 
 -   geth attach http://127.0.0.1:9000 //작동중인 geth 노드의 콘솔에 연결 후 사용

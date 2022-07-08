@@ -32,6 +32,9 @@ sequelize init
 //시퀄라이즈
 /\*
 ORM(Object Relational Mappimg)
+객체를 통해 간접적으로 데이터베이스를 다루는 방식
+직접 SQL 쿼리를 작성하지 않고 프로그래밍 언어를 이용하여 DB에 접근할 수 있음
+
 sequelize
 
       얘는  DBMS MYSQL ,oracle, mssql,  postgresql... db에 관련된걸 관리할때 씀
@@ -135,3 +138,7 @@ await USER.create({subject:'asdfas',content:'asdfasf'})
 }
 
 // 데이터를 그냥 줄테니 객체로 만들어주는게 mapping했다고 함
+
+# cors
+
+-npm i cors
